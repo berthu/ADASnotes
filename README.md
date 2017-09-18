@@ -5,4 +5,4 @@ Notes for self-learning ADAS engineering in Chinese
 
 本人在海外留学多年，二十年没写过文章，请读者体谅和指教。
 
-* 学期1题目1: 寻找车道线程序
+* [学期1题目1: 寻找车道线程序](https://github.com/berthu/ADASnotes/blob/master/T1P1_LaneFinding.md)

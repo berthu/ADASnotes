@@ -33,6 +33,12 @@
 <tr><td><img src="https://github.com/berthu/CarND-LaneLines-P1/blob/master/test_images/post_canny/challenge7.jpg?raw=true" width="400"/></td></tr>
 </table>
 
+## Result 成果
+<table class="image">
+<caption align="bottom">Result</caption>
+<tr><td><img src="https://github.com/berthu/CarND-LaneLines-P1/blob/master/test_videos_output/output.gif?raw=true" width="400"/></td></tr>
+</table>
+
 ## Lessons 分享经验
 - Reading in an image 图像输入: 用的是`matplotlib.image`object
 	```python
