@@ -24,9 +24,9 @@
 4. Canny边界检测(Canny Edge Detection):随处色差梯度巨变就定义是边界
 	- Computerphile (Sobel算子和边界检测基本) https://youtu.be/uihBwtPIBxM
 	- Computerphile (Canny边界检测) https://youtu.be/sRFM5IEqR2w
-5. Hough直线转变(Hough Line Transform):这是功课里最复杂的程序，目标是把多半是直线的边界的方程算出来。 其实逻辑挺简单：把每一条通过边缘像素的线性方程(linear equation)算出来，如果某边界真代表一条直线的话，那么就一定存在一个线性方程，使得其线会通过边界缘上图里其他像素。而且线上所有这样算出来的方程都会有同一坡度。这样就能把直线鉴定和把相当方程算出来。
-－（How Hough Transform works）https://youtu.be/4zHbI-fFIlI
-6. 最后步骤是把Hough算出来的直线方程外推延长。也可以吧大半不是车道线的方程丢弃。如果有多条直段的话，就要平均结果。
+5. Hough直线转变(Hough Line Transform):这是功课里最复杂的程序，目标是把多半是直线的边界的方程算出来。 其实逻辑挺简单：把每一条通过边缘像素的线性方程(linear equation)算出来，如果某边界真代表一条直线的话，那么就一定存在一个线性方程，使得其线会通过边界上图里其他像素。而且线上所有这样算出来的方程都会有同一坡度。这样就能把直线鉴定和把相当方程算出来。
+	-（How Hough Transform works）https://youtu.be/4zHbI-fFIlI
+6. 最后步骤是把Hough算出来的直线方程外推延长。也可以把大半不是车道线的方程丢弃。如果有多条直段的话，就要平均结果。
 
 <table class="image">
 <caption align="bottom">Canny边缘检测</caption>
